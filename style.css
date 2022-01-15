@@ -4,7 +4,7 @@
     font-size: 42px;
     justify-content: space-around;
     color: #808080;
-
+    position:sticky;
 }
 
 html { 
@@ -15,6 +15,10 @@ html {
   background-size: cover;
 }
 
+.icons {
+  margin-left: 0px;
+}
+
 
 .nav-bar a {
     text-decoration: none;
@@ -22,8 +26,13 @@ html {
 }
 
 .nav-bar a:hover{
-    color: black;
+    color: #606470;
     opacity: .1;
+}
+
+.home-text:hover, p:hover {
+    color: #606470;
+    
 }
 
 .App {
