@@ -7,16 +7,23 @@
     position:sticky;
 }
 
+main {
+  background-size: cover;
+  height: 800px;
+}
+
 html { 
   background: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 10;
 }
 
-.icons {
+.icons{
   margin-left: 0px;
+  
 }
 
 
@@ -30,7 +37,7 @@ html {
     opacity: .1;
 }
 
-.home-text:hover, p:hover {
+.home-text-1:hover, p:hover {
     color: #606470;
     
 }
@@ -80,16 +87,21 @@ html {
     
     opacity: .80;
   }
-  .startpage {
-    margin-top: 90px;
+  .startpage-1 {
+    margin-top: 120px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     
   }
 
-  .right-home {
+  h5 .home-text-1 {
+    margin-left:0;
+  }
+
+  .right-home-1 {
     margin-top: 30px;
+    margin-left: 60px;
   }
   
   div a {
@@ -97,6 +109,10 @@ html {
   }
 
   @media (max-width: 480px) {
+
+    right-home-1 {
+      margin-left: 20px !important;
+    }
 
     h3 {
         font-size: 26px;
@@ -119,7 +135,7 @@ html {
     * {
         margin: 0%;
     }
-  .startpage {
+  .startpage-1 {
     display: flex;
     margin-top: 20px;
     margin-left: 10px;
@@ -133,10 +149,10 @@ html {
     display: flex;
     align-content: center;
   }
-  .info-home {
-    margin-left: 20px;
+  .info-home-1 {
+    margin-left: 0px;
     margin-right: 30px;
-    padding-top: 30px;
+    margin-top: 10px;
   }
   .projects-container {
     display: flex;
@@ -152,16 +168,18 @@ html {
     color: grey;
   }
   
-  .home-text {
+  .home-text-1 {
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-bottom: 0%;
+    font-size: 56px;
+    color: #606470;
   }
   
   .info-home {
     font-size: 24px;
     color: grey;
-    margin-left: 40px;
+    margin-left: 0px;
   }
   info-home-p {
     font-size: 24px;
